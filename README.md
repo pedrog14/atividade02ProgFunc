@@ -10,39 +10,23 @@ Pedro Gabriel de Morais Ribeiro
 
 # Introdução
 
-Python é uma linguagem de programação de uso geral de alto nível e multiparadigma,
-lançada em 1991 por Guido van Rossum como sucessora da linguagem ABC. Atualmente, a
-linguagem é mantida pela Python Software Foundation, e se apresenta como uma das
-linguagens de programação mais populares da atualidade.
+Python é uma linguagem de programação de uso geral de alto nível e multiparadigma, lançada em 1991 por Guido van Rossum como sucessora da linguagem ABC. Atualmente, a linguagem é mantida pela Python Software Foundation, e se apresenta como uma das linguagens de programação mais populares da atualidade.
 
 ## Objetivos
 
-Inicialmente proposta como sucessora à linguagem ABC, a linguagem Python atualmente
-apresenta-se como uma linguagem de uso geral (GPL) e com foco em sua legibilidade
-pelo uso de indentação como método de separação de blocos de código.
+Inicialmente proposta como sucessora à linguagem ABC, a linguagem Python atualmente apresenta-se como uma linguagem de uso geral (GPL) e com foco em sua legibilidadepelo uso de indentação como método de separação de blocos de código.
 
 # Motivação
 
-A concepção da linguagem realizou-se no final da década de 80, por Guido van Rossum
-no Centrum Wiskunde & Informatica (CWI; Português: Centro de Matemática e Ciência da
-Computação), Países Baixos, como sucessora à linguagem ABC, e tendo seu nome inspirado
-em um antigo programa de comédia britânico, Monty Python's Flying Circus.
+A concepção da linguagem realizou-se no final da década de 80, por Guido van Rossum no Centrum Wiskunde & Informatica (CWI; Português: Centro de Matemática e Ciência da Computação), Países Baixos, como sucessora à linguagem ABC, e tendo seu nome inspirado em um antigo programa de comédia britânico, Monty Python's Flying Circus.
 
 # Caracteristicas
 
-A linguagem Python apresenta-se como uma linguagem multiparadigma, com foco nos
-paradigmas de Orientação à Objetos e Programação Estruturada, mas também abrangendo
-recursos de paradigma Funcional e Orientado à Aspectos, além de ter sido desenvolvida
-com o intuito de ser uma linguagem altamente extensível através do uso de módulos.
+A linguagem Python apresenta-se como uma linguagem multiparadigma, com foco nos paradigmas de Orientação à Objetos e Programação Estruturada, mas também abrangendo recursos de paradigma Funcional e Orientado à Aspectos, além de ter sido desenvolvida com o intuito de ser uma linguagem altamente extensível através do uso de módulos.
 
-Suas variáveis são de tipagem dinâmica, e há a implementação de um coletor de lixo de
-memória em seu interpretador.
+Suas variáveis são de tipagem dinâmica, e há a implementação de um coletor de lixo de memória em seu interpretador.
 
-A linguagem também apresenta características de linguagens de paradigma Funcional Lisp,
-como a presença de funções de manipulação de listas (como `filter`, `map` e `reduce`),
-compreensão de listas, dicionários, sets e geradores. Sua biblioteca padrão contém
-dois módulos (`itertools` e `functools`) que implementam funcionalidades tomadas de
-linguagens funcionais como Haskell e SML.
+A linguagem também apresenta características de linguagens de paradigma Funcional Lisp, como a presença de funções de manipulação de listas (como `filter`, `map` e `reduce`), compreensão de listas, dicionários, sets e geradores. Sua biblioteca padrão contém dois módulos (`itertools` e `functools`) que implementam funcionalidades tomadas delinguagens funcionais como Haskell e SML.
 
 # Exemplos
 
@@ -87,25 +71,19 @@ print(f"Lista dos {n} primeiros valores da sequência de Fibonacci: {[fibonacci(
 
 # Benchmarks
 
-Por meio do projeto ["The Computer Language Benchmarks Game"](https://benchmarksgame-team.pages.debian.net/benchmarksgame),
-é possível obter diversos benchmarks da linguagem Python. Neles, é possível observar
-em vários dos testes que a linguagem em questão é extremamente lenta em comparação
-com linguagens como C ou Rust, com seus testes sendo executados em um tempo médio
-de mais de 100 vezes o tempo de execução da linguagem mais rápida (No caso, C).
+Por meio do projeto ["The Computer Language Benchmarks Game"](https://benchmarksgame-team.pages.debian.net/benchmarksgame), é possível obter diversos benchmarks da linguagem Python. Neles, é possível observar em vários dos testes que a linguagem em questão é extremamente lenta em comparação com linguagens como C ou Rust, com seus testes sendo executados em um tempo médio de mais de 100 vezes o tempo de execução da linguagem mais rápida (No caso, C).
 
 ![](https://benchmarksgame-team.pages.debian.net/benchmarksgame/download/fastest-more-elapsed.svg)
 
 # Cálculo-Lambda
 
-O cálculo-lambda é uma forma de representar funções de maneira breve, sendo extremamente
-versátil para uso como argumento em funções. É possível utilizar funções-lambda em Python,
-como já foi apresentado anteriormente, através da seguinte sintaxe:
+O cálculo-lambda é uma forma de representar funções de maneira breve, sendo extremamente versátil para uso como argumento em funções. É possível utilizar funções-lambda em Python, como já foi apresentado anteriormente, através da seguinte sintaxe:
 
 ```python
 # lambda <parâmetro(s)>: <retorno>
 
 # Exemplo - Função soma
-sum = lambda a, b: a +  b
+sum = lambda a, b: a + b
 
 # Chamada da função
 print(sum(2, 3)) # 5
@@ -113,10 +91,4 @@ print(sum(2, 3)) # 5
 
 # Conclusão
 
-A linguagem Python é uma das linguagens mais populares da atualidade, sem dúvida, devido
-à sua sintaxe simples e de fácil compreensão, e devido à escolha de seus desenvolvedores
-de mantê-la como uma linguagem fácilmente extensível, o que torna bibliotecas externas
-à linguagem (NumPy, por exemplo) tão populares quanto a própria linguagem em si, ambos
-os fatores criando um ambiente próspero ao uso em diversas áreas de pesquisa, onde
-pode ser necessário o auxílio computacional para a realização de cálculos complexos,
-tudo isso apesar de seu baixo desempenho em velocidade.
+A linguagem Python é uma das linguagens mais populares da atualidade, sem dúvida, devido à sua sintaxe simples e de fácil compreensão, e devido à escolha de seus desenvolvedores de mantê-la como uma linguagem fácilmente extensível, o que torna bibliotecas externas à linguagem (NumPy, por exemplo) quase tão populares quanto a própria linguagem em si, ambos os fatores criando um ambiente próspero ao uso em diversas áreas de pesquisa, onde pode ser necessário o auxílio computacional para a realização de cálculos complexos, tudo isso apesar de seu baixo desempenho em velocidade.
