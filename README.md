@@ -26,7 +26,7 @@ A linguagem Python apresenta-se como uma linguagem multiparadigma, com foco nos 
 
 Suas variáveis são de tipagem dinâmica, e há a implementação de um coletor de lixo de memória em seu interpretador.
 
-A linguagem também apresenta características de linguagens de paradigma Funcional Lisp, como a presença de funções de manipulação de listas (como `filter`, `map` e `reduce`), compreensão de listas, dicionários, sets e geradores. Sua biblioteca padrão contém dois módulos (`itertools` e `functools`) que implementam funcionalidades tomadas delinguagens funcionais como Haskell e SML.
+A linguagem também apresenta características de linguagens de paradigma Funcional Lisp, como a presença de funções de manipulação de listas (como `filter`, `map` e `reduce`), compreensão de listas, dicionários, sets e geradores. Sua biblioteca padrão contém dois módulos (`itertools` e `functools`) que implementam funcionalidades tomadas de linguagens funcionais como Haskell e SML.
 
 # Exemplos
 
@@ -94,5 +94,7 @@ print(sum(2, 3)) # 5
 A linguagem Python é uma das linguagens mais populares da atualidade, sem dúvida, devido à sua sintaxe simples e de fácil compreensão, e devido à escolha de seus desenvolvedores de mantê-la como uma linguagem fácilmente extensível, o que torna bibliotecas externas à linguagem (NumPy, por exemplo) quase tão populares quanto a própria linguagem em si, ambos os fatores criando um ambiente próspero ao uso em diversas áreas de pesquisa, onde pode ser necessário o auxílio computacional para a realização de cálculos complexos, tudo isso apesar de seu baixo desempenho em velocidade.
 
 # Referências
+
 https://en.wikipedia.org/wiki/Python_(programming_language)
+
 https://benchmarksgame-team.pages.debian.net/benchmarksgame
