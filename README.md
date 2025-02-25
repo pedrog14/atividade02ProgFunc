@@ -53,7 +53,7 @@ print(f"O IMC de {p1.nome} é {p1.imc()}.")
 
 ```python
 def filtroPar(a):
-    return [i for i in filter(lambda b: b % 2 == 0, a)]
+    return list(filter(lambda b: b % 2 == 0, a))
 
 print(filtroPar(range(10)))
 ```
