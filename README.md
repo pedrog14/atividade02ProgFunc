@@ -14,7 +14,7 @@ Python é uma linguagem de programação de uso geral de alto nível e multipara
 
 ## Objetivos
 
-Inicialmente proposta como sucessora à linguagem ABC, a linguagem Python atualmente apresenta-se como uma linguagem de uso geral (GPL) e com foco em sua legibilidadepelo uso de indentação como método de separação de blocos de código.
+Inicialmente proposta como sucessora à linguagem ABC, a linguagem Python atualmente apresenta-se como uma linguagem de uso geral (GPL) e com foco em sua legibilidade pelo uso de indentação como método de separação de blocos de código.
 
 # Motivação
 
@@ -92,3 +92,7 @@ print(sum(2, 3)) # 5
 # Conclusão
 
 A linguagem Python é uma das linguagens mais populares da atualidade, sem dúvida, devido à sua sintaxe simples e de fácil compreensão, e devido à escolha de seus desenvolvedores de mantê-la como uma linguagem fácilmente extensível, o que torna bibliotecas externas à linguagem (NumPy, por exemplo) quase tão populares quanto a própria linguagem em si, ambos os fatores criando um ambiente próspero ao uso em diversas áreas de pesquisa, onde pode ser necessário o auxílio computacional para a realização de cálculos complexos, tudo isso apesar de seu baixo desempenho em velocidade.
+
+# Referências
+https://en.wikipedia.org/wiki/Python_(programming_language)
+https://benchmarksgame-team.pages.debian.net/benchmarksgame
