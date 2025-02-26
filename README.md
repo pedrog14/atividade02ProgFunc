@@ -1,4 +1,4 @@
-# Programação Funcional - AV 2 - Python
+# Programação Funcional - AV 2 (Opção 1) - Python
 
 ## Aluno
 
@@ -64,7 +64,7 @@ print(filtroPar(range(10)))
 def fibonacci(n):
     return 0 if n == 0 else 1 if n == 1 else fibonacci(n - 2) + fibonacci(n - 1)
 
-n = int(input("Fibonacci - Insira o tamanho da lista da sequência de Fibonacci à ser gerada: "))
+n = 10
 
 print(f"Lista dos {n} primeiros valores da sequência de Fibonacci: {[fibonacci(i) for i in range(n)]}")
 ```
